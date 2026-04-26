@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+
+  "tailwindStylesheet": "./src/index.css",
+  "tailwindFunctions": ["cn", "clsx", "cva"],
+
+  "importOrder": [
+    ".*\\.s?css$",
+    "^server-only$",
+    "^react$",
+    "^react-dom$",
+    "^react-dom/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^@/(.*)$",
+    "^[./]"
+  ],
+
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false
+}
