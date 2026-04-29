@@ -5,6 +5,9 @@ import { UseRefExample } from '@/tasks/1.4-use-ref';
 import { UseReducerExample } from '@/tasks/1.5-use-reducer';
 import { ReactMemoExample } from '@/tasks/1.6-react-memo';
 import { CombinedHooksExample } from '@/tasks/1.7-combined-hooks';
+import { BadFormExample } from '@/tasks/2.1-bad-form';
+import { RHFZodFormExample } from '@/tasks/2.2-rhf-zod';
+import { FormikYupFormExample } from '@/tasks/2.3-formik-yup';
 
 export function App() {
   return (
@@ -16,6 +19,9 @@ export function App() {
       <UseReducerExample />
       <ReactMemoExample />
       <CombinedHooksExample />
+      <BadFormExample />
+      <RHFZodFormExample />
+      <FormikYupFormExample />
     </div>
   );
 }

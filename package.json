@@ -11,10 +11,15 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "clsx": "^2.1.1",
+    "formik": "^2.4.9",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "tailwind-merge": "^3.5.0"
+    "react-hook-form": "^7.74.0",
+    "tailwind-merge": "^3.5.0",
+    "yup": "^1.7.1",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
